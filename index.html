@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Montador de Look</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>Monte seu Look</h1>
+
+<div class="container">
+
+  <!-- ÁREA DO PERSONAGEM -->
+  <div class="totem">
+    <div class="slot" data-type="head">Cabeça</div>
+    <div class="slot" data-type="torso">Torso</div>
+    <div class="slot" data-type="legs">Pernas</div>
+    <div class="slot" data-type="feet">Pés</div>
+    <div class="slot" data-type="props">Acessórios</div>
+  </div>
+
+  <!-- ROUPAS -->
+  <div class="roupas">
+    <h3>Cabeça</h3>
+    <div id="head">
+    <img src="/dcim/head/LacoRosa.jpg" class="item" draggable="true" data-type="head">
+    <img src="/dcim/head/LacoRosa.jpg" class="item" draggable="true" data-type="head">
+    <img src="/dcim/head/LacoRosa.jpg" class="item" draggable="true" data-type="head">
+    </div>
+    <h3>Torso</h3>
+    <div id="torso">
+    <img src="/dcim/torso/vestidoAmarelo.jpg" class="item" draggable="true" data-type="torso">
+    </div>
+    <h3>Pernas</h3>
+    <div id="pernas">
+    <img src="/dcim/legs/saiaAzul.jpeg" class="item" draggable="true" data-type="legs">
+    </div>
+    <h3>Pés</h3>
+    <div id="pes">
+    <img src="/dcim/feet/allstarAmarelo.jpeg" class="item" draggable="true" data-type="feet">
+    </div>
+    <h3 id="props">Acessórios</h3>
+    <div id="props">
+    <img src="/dcim/props/bolsaPreta.jpeg" class="item" draggable="true" data-type="props">
+    </div>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-image: url("/dcim/wallpaper/a3ca8a1c-a7cf-4c3b-b296-6a614f94c66f.png");
+  background-size: cover;       /* cobre toda a tela */
+  background-position: center;  /* centraliza */
+  background-repeat: no-repeat; /* evita repetir */
+  background-attachment: fixed; /* efeito parallax leve */
+
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 40px 0 40px 0;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 0;
+  margin-top: 20px;
+}
+
+/* TOTEM */
+.totem {
+  margin: 50px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.slot {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  position: relative;
+}
+
+.slot img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+/* ROUPAS */
+.roupas {
+  margin: 30px 0 0 0;
+  width: 200px;
+  gap: 10px;
+}
+
+#head {
+  gap: 10px;
+  display: flex;
+  flex-wrap: nowrap;    
+}
+
+#torso {
+  gap: 10px;
+  display: flex;
+  flex-wrap: nowrap;    
+}
+
+#pernas {
+  gap: 10px;
+  display: flex;
+  flex-wrap: nowrap;    
+}
+
+#pes {
+  gap: 10px;
+  display: flex;
+  flex-wrap: nowrap;    
+}
+
+#props {
+  gap: 10px;
+  display: flex;
+  flex-wrap: nowrap;    
+}
+
+.item {
+  width: 50px;
+  margin: 10px;
+  cursor: grab;
+}
+
+.item:active {
+  cursor: grabbing;
+}
